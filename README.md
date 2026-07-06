@@ -1,6 +1,6 @@
-# SmartExpense — AI-Powered Company Expense Intelligence Platform
+# SmartExpense - AI-Powered Company Expense Intelligence Platform
 
-A full-stack expense tracking and forecasting platform built for small businesses and startups. SmartExpense goes beyond simple expense logging — it uses machine learning to detect anomalies in spending patterns and forecast future expenses, helping companies make smarter financial decisions.
+A full-stack expense tracking and forecasting platform built for small businesses and startups. SmartExpense goes beyond simple expense logging - it uses machine learning to detect anomalies in spending patterns and forecast future expenses, helping companies make smarter financial decisions.
 
 ---
 
@@ -157,4 +157,4 @@ Most expense tracking tools (Splitwise, QuickBooks) focus on logging and reporti
 
 **Niyati Kaushik**  
 B.Tech CSE, Jaypee Institute of Information Technology  
-[GitHub](https://github.com/yourusername) | [LinkedIn](https://linkedin.com/in/yourusername)
+[GitHub](https://github.com/niyatikaushik2005) 
