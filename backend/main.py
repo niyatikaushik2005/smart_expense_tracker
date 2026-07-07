@@ -12,6 +12,11 @@ app = FastAPI(title="SmartExpense API")
 app.include_router(auth_router, prefix="/auth", tags=["Auth"])
 app.include_router(expense_router, prefix="/expenses", tags=["Expenses"])
 app.include_router(analytics_router, prefix="/analytics", tags=["Analytics"])
+app.include_router(
+    analytics_router,
+    prefix="/analytics",
+    tags=["Analytics"]
+)
 
 @app.get("/")
 def root():
