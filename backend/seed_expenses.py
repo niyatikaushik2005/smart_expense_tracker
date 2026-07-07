@@ -6,14 +6,17 @@ from random import randint, choice, random
 # Get First Registered User
 # =====================================================
 
-user = user_collection.find_one()
+EMAIL = input("Enter the email of the user to seed: ").strip()
+
+user = user_collection.find_one({"email": EMAIL})
 
 if not user:
-    print("❌ No registered user found.")
-    print("Please register a user before running this script.")
+    print("❌ User not found.")
     exit()
 
 USER_ID = str(user["_id"])
+
+print(f"✅ Seeding data for: {EMAIL}")
 
 # =====================================================
 # Company Details
